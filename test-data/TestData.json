@@ -1,0 +1,13 @@
+{
+    "webAddress": {
+        "url": "https://www.saucedemo.com/"
+    },
+    "Products": {
+        "product1": "Jacket"
+    },
+    "UserLogin": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    }
+    
+}
