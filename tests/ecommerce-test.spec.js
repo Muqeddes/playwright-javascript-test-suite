@@ -40,7 +40,6 @@ test.describe('suite', () => {
         await expect(checkoutPage.successMsg).toBeVisible();
     })
 
-
     test.afterAll(async () => {
         await page.close();
     })
