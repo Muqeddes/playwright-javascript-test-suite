@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 test.describe.configure({ mode: 'serial' });
-import { LoginPage } from '../pages/LoginPage';
-import { HomePage } from '../pages/HomePage';
-import { ShoppingCart } from '../pages/ShoppingCart';
-import { CheckoutPage } from '../pages/CheckoutPage';
-const testData = JSON.parse(JSON.stringify(require('../test-data/TestData.json')));
+import { LoginPage} from '../pages/login-page';
+import { HomePage} from '../pages/home-page';
+import { ShoppingCart } from '../pages/shopping-cart';
+import { CheckoutPage } from '../pages/checkout-page';
+const testData = JSON.parse(JSON.stringify(require('../test-data/test-data.json')));
 import { faker } from "@faker-js/faker";
 
 test.describe('suite', () => {
